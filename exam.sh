@@ -12,6 +12,7 @@ elif [[ ! -d db.$Dom.mytld ]]; then
     echo "Please select Diffrent name $Dom is already exist" 1>&2
 fi
 
+named-checkzone $Dom.mytld db.$Dom.mytld
 
 
 
