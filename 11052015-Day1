@@ -1,0 +1,651 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20151105112832
+Username  : STUDENT\200298834 
+Machine	  : BA-B124-1920 (Microsoft Windows NT 6.1.7601 Service Pack 1) 
+**********************
+Transcript started, output file is C:\Users\GCSTUDENT\Documents\PowerShell_transcript.20151105112832.txt
+PS G:\> ise
+PS G:\> Show-Command
+PS G:\> get-process
+
+Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName                                                  
+-------  ------    -----      ----- -----   ------     -- -----------                                                  
+     79       7     1460       4188    39     0.00   2100 ACService                                                    
+    206      13     3472      10400    66     0.27   2120 AdAppMgrSvc                                                  
+    381      36    38444      21992   243     1.47   3144 AlertusDesktopAlert                                          
+    147      17     4204      10744    94     0.25   2312 AppleMobileDeviceService                                     
+    385      82    40232      51168   189     2.12   4528 AppVClient                                                   
+    292      38    67240      45628   695     0.76   1532 AppVStreamingUX                                              
+    183      13     3676       9060    85     0.06   3820 atieclxx                                                     
+    136       7     1944       4840    32     0.03   1204 atiesrxx                                                     
+   1813      52    47580      72604   229    67.72    440 CcmExec                                                      
+    954      57    42484      80540   802    14.55    980 chrome                                                       
+    223      27   120044     121932   331     4.51   5336 chrome                                                       
+    369      45   114004     644396   920    19.34   7208 chrome                                                       
+    174      21    40676      51752   235     1.84   7332 chrome                                                       
+    579      44    45604      42448   199   272.10   2600 CLS.Remoting.Client                                          
+    327      27    29484      25148   179     1.53   2108 CLSUserClient                                                
+    216      21     4388      12844    75     0.45   3828 CodeMeter                                                    
+    684      33   135296      31472   416   339.74   6932 CompatTelRunner                                              
+     33       4     1472       3280    22     0.00   1948 conhost                                                      
+     32       5     1564       3516    26     0.00   5884 conhost                                                      
+     52       7     3192       6776    62     0.19   7124 conhost                                                      
+    301      57    40200      47500   590     2.15   2332 Connect.Service.ContentService                               
+    149      24    22944      16376   479     0.06   2652 CPExamSvc                                                    
+   1130      17     3028       5664    52     1.19    644 csrss                                                        
+    560      18     3628      38400    80     2.25    788 csrss                                                        
+    200      15     4724      10732    51     0.12   3748 dagent                                                       
+     85       9     4384       9160    82     0.03    504 dagentui                                                     
+     56       6     1764       4408    51     0.02   3584 DFLocker64                                                   
+    180      16    10132      12932    93     0.09    584 DFServ                                                       
+    203      16     5432      12688    59     0.08   3352 dllhost                                                      
+     92       9     2608       6376    51     0.12   6660 dllhost                                                      
+    186      19    37460      36388   174     8.16   6008 dwm                                                          
+    277      20     7244      14536    92     0.16   2744 EvtEng                                                       
+   1172     116    95696     109088   845    18.24   6044 explorer                                                     
+    164      13     8700      10376   112     0.03   2768 ForensiTAppxService                                          
+    109      13    14176      16472   100     0.23   5852 FrzState2k                                                   
+     35       6     3448       5628    68     0.02   6080 fsATProxy                                                    
+    137      19    21960      17968    71     1.53   2808 hasplms                                                      
+     90       8     4016       8364    69     0.05   4372 hkcmd                                                        
+      0       0        0         24     0               0 Idle                                                         
+    112       9     3704       8436    76     0.03   2660 igfxpers                                                     
+    102      10     4616       8888    66     0.14   1996 igfxsrvc                                                     
+     94       9     4452       8752    75     0.05   4184 igfxtray                                                     
+    998      34     9428      18112    57     7.43    888 lsass                                                        
+    249      10     3900       6884    31     0.31    900 lsm                                                          
+     72      10     3548       7076    47     0.05   2948 mitsijm                                                      
+    153      18     4156       8764    62     0.05   5432 msdtc                                                        
+    719      72   124372      95960   472   104.71   1088 MsMpEng                                                      
+    265      19     7268      15948   110     0.20   4308 msseces                                                      
+    271      37    21460       8756    84     2.09   2736 NisSrv                                                       
+     60       7     1100       3656    31     0.08   2384 o2flash                                                      
+    345      23     5316      11144    98     1.39   6756 PcounterClient                                               
+    118       9     1808       4984    46     0.08   1508 PMSvc                                                        
+     92      10     1880       5396    72     0.00   2356 poweroff                                                     
+    414      37   120244     116932   788     4.23   7012 powershell                                                   
+    390      51   136152     140136   878     3.93   5812 powershell_ise                                               
+    546      17    11920      15796   131     4.45   2888 QBCFMonitorService                                           
+    211      13    15560      12508   100     0.03   1636 RAVBg64                                                      
+    215      14    16832      14108   106     0.05   1644 RAVBg64                                                      
+    221      13    10516      13296    95     0.02   1652 RAVBg64                                                      
+    258      15    18080      14548   109     0.06   3936 RAVBg64                                                      
+    307      33    29512       3672   553     0.14   6616 RAVBg64                                                      
+    100       8     2464       6916    57     0.03   2076 RegSrvc                                                      
+    194      18     4204      11988    98     0.12   1516 RPCAlerts_Advanced                                           
+    107       8     2684       6032    50     0.03   1612 RtkAudioService64                                            
+    274      16    15756      13344   118     0.06    596 RtkNGUI64                                                    
+    269      22    28848      31732   230     1.97   7536 SCNotification                                               
+     96       8     3064       6372    32     0.03   8048 SearchFilterHost                                             
+    703      64    39920      28596   180     4.93   6720 SearchIndexer                                                
+    243       8     2856       6252    32     0.03   5212 SearchProtocolHost                                           
+    388      16     9468      15804    55     3.62    880 services                                                     
+     36       2      760       1420     4     0.02    496 smss                                                         
+    124      16    12956      18140    99     0.39   3856 SPEnroll                                                     
+    508      33    16108      26788   123     5.43   2044 spoolsv                                                      
+     93       9     2804       7064    41     0.02   3100 sqlwriter                                                    
+    464      17     7688      11916    44     8.24    892 svchost                                                      
+    411      14     6188      11508    49     1.86   1008 svchost                                                      
+    589      26    17608      23272    81    22.40   1236 svchost                                                      
+    676      35   164236     173444   265    17.00   1300 svchost                                                      
+    339      33    18128      19296    75     1.14   1320 svchost                                                      
+    680      32    11444      18644   111     1.14   1324 svchost                                                      
+   2696      52    57980      75132   464   123.21   1364 svchost                                                      
+    207      17    10020      16632    56     2.51   1464 svchost                                                      
+    738      46    19668      22572   165     1.86   1740 svchost                                                      
+    316      23     9892      16024    91     0.90   2704 svchost                                                      
+     67       7     1804       4320    26     0.03   2800 svchost                                                      
+    101       8     2368       5456    47     0.02   3780 svchost                                                      
+    109      11     2848       6504    35     0.02   5340 svchost                                                      
+    151      18     3156       6516    34     0.06   6360 svchost                                                      
+     64       6     1888       4360    26     0.02   8036 svchost                                                      
+    989       0      112        304     3    47.99      4 System                                                       
+    113       9     3408       7556    54     0.02   5448 taskeng                                                      
+    228      24     9556      12928   418     0.39   5820 taskhost                                                     
+     76       7     2444       5888    29     0.00   2136 unsecapp                                                     
+     73       7     2552       5940    48     0.02   3208 unsecapp                                                     
+     88      11     1836       4952    46     0.02   3260 vmnat                                                        
+     57       7     7836      10648    35     0.00   4400 vmnetdhcp                                                    
+    219      17     5704      10408    87     2.28   3952 vmware-authd                                                 
+    260      33    32288      45680   162     1.11   4492 vmware-hostd                                                 
+     57       8     1776       5420    64     0.02   6176 vmware-tray                                                  
+    147      12     4712       8940    59     0.03   4436 vmware-usbarbitrator64                                       
+     45       6     2608       5908    52     0.02   1904 WavesSvc64                                                   
+     83      10     2516       5524    48     0.08    764 wininit                                                      
+    127      10     3936       8520    57     0.16    840 winlogon                                                     
+    133      10     4396       7356    51     0.00   3200 winvnc                                                       
+    172      14     6152      11496    92     4.96   3724 winvnc                                                       
+    136      11     3636       8532    60     0.44   3064 wisptis                                                      
+    348      22     5868      13680    76     0.05   1940 wlanext                                                      
+    363      23     7744      16196    82     0.33   3296 WLIDSVC                                                      
+     73       6     2080       4188    33     0.00   3656 WLIDSVCM                                                     
+    304      13    12272      18404    59     3.54   3412 WmiPrvSE                                                     
+    305      19    26544      33556    96     6.27   3424 WmiPrvSE                                                     
+    220      11     6168      10028    44     0.23   5516 WmiPrvSE                                                     
+    158      11    10896      14472    65     2.40   6416 WmiPrvSE                                                     
+    134      10     3740       7368    36     0.05   7360 WmiPrvSE                                                     
+    139      14     7572      13432    56     1.39   7460 WmiPrvSE                                                     
+    159      12     8988      13228    63     0.64   7800 WmiPrvSE                                                     
+    299      17     6080      11476    59     0.14   8144 WmiPrvSE                                                     
+    252      20     6636      14852   103     0.22   3548 ZeroConfigService                                            
+
+
+PS G:\> get-host
+
+
+Name             : ConsoleHost
+Version          : 3.0
+InstanceId       : 0a6a1526-0bd0-41f5-a87b-5b70e354f912
+UI               : System.Management.Automation.Internal.Host.InternalHostUserInterface
+CurrentCulture   : en-US
+CurrentUICulture : en-US
+PrivateData      : Microsoft.PowerShell.ConsoleHost+ConsoleColorProxy
+IsRunspacePushed : False
+Runspace         : System.Management.Automation.Runspaces.LocalRunspace
+
+
+
+PS G:\> gwmi-class win32-processor
+gwmi-class : The term 'gwmi-class' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ gwmi-class win32-processor
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (gwmi-class:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS G:\> gwmi -class win32-processor
+gwmi : Invalid query "select * from win32-processor"
+At line:1 char:1
++ gwmi -class win32-processor
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-WmiObject], ManagementException
+    + FullyQualifiedErrorId : GetWMIManagementException,Microsoft.PowerShell.Commands.GetWmiObjectCommand
+ 
+PS G:\> 
+PS G:\> gwmi -class win32_processor
+
+
+Caption           : Intel64 Family 6 Model 60 Stepping 3
+DeviceID          : CPU0
+Manufacturer      : GenuineIntel
+MaxClockSpeed     : 3201
+Name              : Intel(R) Core(TM) i7-4790S CPU @ 3.20GHz
+SocketDesignation : SOCKET 0
+
+
+
+PS G:\> Get-Verb
+
+Verb                                                        Group                                                      
+----                                                        -----                                                      
+Add                                                         Common                                                     
+Clear                                                       Common                                                     
+Close                                                       Common                                                     
+Copy                                                        Common                                                     
+Enter                                                       Common                                                     
+Exit                                                        Common                                                     
+Find                                                        Common                                                     
+Format                                                      Common                                                     
+Get                                                         Common                                                     
+Hide                                                        Common                                                     
+Join                                                        Common                                                     
+Lock                                                        Common                                                     
+Move                                                        Common                                                     
+New                                                         Common                                                     
+Open                                                        Common                                                     
+Optimize                                                    Common                                                     
+Pop                                                         Common                                                     
+Push                                                        Common                                                     
+Redo                                                        Common                                                     
+Remove                                                      Common                                                     
+Rename                                                      Common                                                     
+Reset                                                       Common                                                     
+Resize                                                      Common                                                     
+Search                                                      Common                                                     
+Select                                                      Common                                                     
+Set                                                         Common                                                     
+Show                                                        Common                                                     
+Skip                                                        Common                                                     
+Split                                                       Common                                                     
+Step                                                        Common                                                     
+Switch                                                      Common                                                     
+Undo                                                        Common                                                     
+Unlock                                                      Common                                                     
+Watch                                                       Common                                                     
+Backup                                                      Data                                                       
+Checkpoint                                                  Data                                                       
+Compare                                                     Data                                                       
+Compress                                                    Data                                                       
+Convert                                                     Data                                                       
+ConvertFrom                                                 Data                                                       
+ConvertTo                                                   Data                                                       
+Dismount                                                    Data                                                       
+Edit                                                        Data                                                       
+Expand                                                      Data                                                       
+Export                                                      Data                                                       
+Group                                                       Data                                                       
+Import                                                      Data                                                       
+Initialize                                                  Data                                                       
+Limit                                                       Data                                                       
+Merge                                                       Data                                                       
+Mount                                                       Data                                                       
+Out                                                         Data                                                       
+Publish                                                     Data                                                       
+Restore                                                     Data                                                       
+Save                                                        Data                                                       
+Sync                                                        Data                                                       
+Unpublish                                                   Data                                                       
+Update                                                      Data                                                       
+Approve                                                     Lifecycle                                                  
+Assert                                                      Lifecycle                                                  
+Complete                                                    Lifecycle                                                  
+Confirm                                                     Lifecycle                                                  
+Deny                                                        Lifecycle                                                  
+Disable                                                     Lifecycle                                                  
+Enable                                                      Lifecycle                                                  
+Install                                                     Lifecycle                                                  
+Invoke                                                      Lifecycle                                                  
+Register                                                    Lifecycle                                                  
+Request                                                     Lifecycle                                                  
+Restart                                                     Lifecycle                                                  
+Resume                                                      Lifecycle                                                  
+Start                                                       Lifecycle                                                  
+Stop                                                        Lifecycle                                                  
+Submit                                                      Lifecycle                                                  
+Suspend                                                     Lifecycle                                                  
+Uninstall                                                   Lifecycle                                                  
+Unregister                                                  Lifecycle                                                  
+Wait                                                        Lifecycle                                                  
+Debug                                                       Diagnostic                                                 
+Measure                                                     Diagnostic                                                 
+Ping                                                        Diagnostic                                                 
+Repair                                                      Diagnostic                                                 
+Resolve                                                     Diagnostic                                                 
+Test                                                        Diagnostic                                                 
+Trace                                                       Diagnostic                                                 
+Connect                                                     Communications                                             
+Disconnect                                                  Communications                                             
+Read                                                        Communications                                             
+Receive                                                     Communications                                             
+Send                                                        Communications                                             
+Write                                                       Communications                                             
+Block                                                       Security                                                   
+Grant                                                       Security                                                   
+Protect                                                     Security                                                   
+Revoke                                                      Security                                                   
+Unblock                                                     Security                                                   
+Unprotect                                                   Security                                                   
+Use                                                         Other                                                      
+
+
+PS G:\> Get-Help start-
+
+Do you want to run Update-Help?
+The Update-Help cmdlet downloads the newest Help files for Windows PowerShell modules and installs them on your 
+computer. For more details, see the help topic at http://go.microsoft.com/fwlink/?LinkId=210614.
+[Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"): n
+
+Name                              Category  Module                    Synopsis                                         
+----                              --------  ------                    --------                                         
+Start-Job                         Cmdlet    Microsoft.PowerShell.Core ...                                              
+Start-Process                     Cmdlet    Microsoft.PowerShell.M... ...                                              
+Start-Service                     Cmdlet    Microsoft.PowerShell.M... ...                                              
+Start-Transaction                 Cmdlet    Microsoft.PowerShell.M... ...                                              
+Start-Sleep                       Cmdlet    Microsoft.PowerShell.U... ...                                              
+Start-Transcript                  Cmdlet    Microsoft.PowerShell.Host ...                                              
+Start-BitsTransfer                Cmdlet    BitsTransfer              Start-BitsTransfer...                            
+Start-Trace                       Function  PSDiagnostics             ...                                              
+Start-AppvVirtualProcess          Function  AppvClient                ...                                              
+
+
+PS G:\> help-help
+help-help : The term 'help-help' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ help-help
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (help-help:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS G:\> get-help
+
+TOPIC
+    Windows PowerShell Help System
+
+SHORT DESCRIPTION
+    Displays help about Windows PowerShell cmdlets and concepts. 
+
+LONG DESCRIPTION
+    Windows PowerShell Help describes Windows PowerShell cmdlets,
+    functions, scripts, and modules, and explains concepts, including
+    the elements of the Windows PowerShell language.
+
+    Windows PowerShell does not include help files, but you can read the
+    help topics online, or use the Update-Help cmdlet to download help files
+    to your computer and then use the Get-Help cmdlet to display the help
+    topics at the command line.
+
+    You can also use the Update-Help cmdlet to download updated help files
+    as they are released so that your local help content is never obsolete. 
+
+    Without help files, Get-Help displays auto-generated help for cmdlets, 
+    functions, and scripts.
+
+
+  ONLINE HELP    
+    You can find help for Windows PowerShell online in the TechNet Library
+    beginning at http://go.microsoft.com/fwlink/?LinkID=108518. 
+
+    To open online help for any cmdlet or function, type:
+
+        Get-Help <cmdlet-name> -Online    
+
+  UPDATE-HELP
+    To download and install help files on your computer:
+
+       1. Start Windows PowerShell with the "Run as administrator" option.
+       2. Type:
+
+          Update-Help
+
+    After the help files are installed, you can use the Get-Help cmdlet to
+    display the help topics. You can also use the Update-Help cmdlet to
+    download updated help files so that your local help files are always
+    up-to-date.
+    
+    For more information about the Update-Help cmdlet, type:
+
+       Get-Help Update-Help -Online
+
+    or go to: http://go.microsoft.com/fwlink/?LinkID=210614
+
+
+  GET-HELP
+    The Get-Help cmdlet displays help at the command line from content in
+    help files on your computer. Without help files, Get-Help displays basic
+    help about cmdlets and functions. You can also use Get-Help to display
+    online help for cmdlets and functions.
+
+    To get help for a cmdlet, type:
+
+        Get-Help <cmdlet-name>
+    
+    To get online help, type:
+   
+        Get-Help <cmdlet-name> -Online    
+
+    The titles of conceptual topics begin with "About_".
+    To get help for a concept or language element, type:
+
+        Get-Help About_<topic-name>
+
+    To search for a word or phrase in all help files, type:
+
+        Get-Help <search-term>
+
+    For more information about the Get-Help cmdlet, type:
+
+        Get-Help Get-Help -Online
+
+    or go to: http://go.microsoft.com/fwlink/?LinkID=113316
+
+
+  EXAMPLES:
+      Save-Help              : Download help files from the Internet and saves
+                               them on a file share.
+      Update-Help            : Downloads and installs help files from the
+                               Internet or a file share.
+      Get-Help Get-Process   : Displays help about the Get-Process cmdlet.   
+      Get-Help Get-Process -Online
+                             : Opens online help for the Get-Process cmdlet.                            
+      Help Get-Process       : Displays help about Get-Process one page at a time.
+      Get-Process -?         : Displays help about the Get-Process cmdlet.      
+      Get-Help About_Modules : Displays help about Windows PowerShell modules.
+      Get-Help remoting      : Searches the help topics for the word "remoting."
+
+  SEE ALSO:
+      about_Updatable_Help
+      Get-Help
+      Save-Help
+      Update-Help
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS G:\> get-help help
+
+NAME
+    Get-Help
+    
+SYNTAX
+    Get-Help [[-Name] <string>] [-Path <string>] [-Category <string[]> {Alias | Cmdlet | Provider | General | FAQ | 
+    Glossary | HelpFile | ScriptCommand | Function | Filter | ExternalScript | All | DefaultHelp | Workflow}] 
+    [-Component <string[]>] [-Functionality <string[]>] [-Role <string[]>] [-Full]  [<CommonParameters>]
+    
+    Get-Help [[-Name] <string>] -Detailed [-Path <string>] [-Category <string[]> {Alias | Cmdlet | Provider | General 
+    | FAQ | Glossary | HelpFile | ScriptCommand | Function | Filter | ExternalScript | All | DefaultHelp | Workflow}] 
+    [-Component <string[]>] [-Functionality <string[]>] [-Role <string[]>]  [<CommonParameters>]
+    
+    Get-Help [[-Name] <string>] -Examples [-Path <string>] [-Category <string[]> {Alias | Cmdlet | Provider | General 
+    | FAQ | Glossary | HelpFile | ScriptCommand | Function | Filter | ExternalScript | All | DefaultHelp | Workflow}] 
+    [-Component <string[]>] [-Functionality <string[]>] [-Role <string[]>]  [<CommonParameters>]
+    
+    Get-Help [[-Name] <string>] -Parameter <string> [-Path <string>] [-Category <string[]> {Alias | Cmdlet | Provider 
+    | General | FAQ | Glossary | HelpFile | ScriptCommand | Function | Filter | ExternalScript | All | DefaultHelp | 
+    Workflow}] [-Component <string[]>] [-Functionality <string[]>] [-Role <string[]>]  [<CommonParameters>]
+    
+    Get-Help [[-Name] <string>] -Online [-Path <string>] [-Category <string[]> {Alias | Cmdlet | Provider | General | 
+    FAQ | Glossary | HelpFile | ScriptCommand | Function | Filter | ExternalScript | All | DefaultHelp | Workflow}] 
+    [-Component <string[]>] [-Functionality <string[]>] [-Role <string[]>]  [<CommonParameters>]
+    
+    Get-Help [[-Name] <string>] -ShowWindow [-Path <string>] [-Category <string[]> {Alias | Cmdlet | Provider | 
+    General | FAQ | Glossary | HelpFile | ScriptCommand | Function | Filter | ExternalScript | All | DefaultHelp | 
+    Workflow}] [-Component <string[]>] [-Functionality <string[]>] [-Role <string[]>]  [<CommonParameters>]
+    
+
+ALIASES
+    None
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Help -Online" or 
+           go to http://go.microsoft.com/fwlink/?LinkID=113316.
+
+
+
+PS G:\> help about_
+PS G:\> help help
+PS G:\> update-help
+PS G:\> help help
+PS G:\> help help -Examples
+PS G:\> help help -Detailed
+PS G:\> help help -Full
+PS G:\> help about_
+PS G:\> help about_Command_Syntax
+PS G:\> help -online get-date
+PS G:\> Show-Command
+PS G:\> Get-ExecutionPolicy
+Restricted
+PS G:\> Get-ExecutionPolicy -list
+
+                                                      Scope                                             ExecutionPolicy
+                                                      -----                                             ---------------
+                                              MachinePolicy                                                   Undefined
+                                                 UserPolicy                                                   Undefined
+                                                    Process                                                   Undefined
+                                                CurrentUser                                                   Undefined
+                                               LocalMachine                                                   Undefined
+
+
+PS G:\> help about_Execution_Policies
+PS G:\> cd tmp
+cd : Cannot find path 'G:\tmp' because it does not exist.
+At line:1 char:1
++ cd tmp
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G:\tmp:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+PS G:\> cd ?
+cd : Cannot find path '?' because it does not exist.
+At line:1 char:1
++ cd ?
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (?:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+PS G:\> cd tmp
+cd : Cannot find path 'G:\tmp' because it does not exist.
+At line:1 char:1
++ cd tmp
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G:\tmp:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+PS G:\> notepad helloworld.ps1
+PS G:\> ls
+
+
+    Directory: G:\
+
+
+Mode                LastWriteTime     Length Name                                                                      
+----                -------------     ------ ----                                                                      
+d----         9/22/2014  12:39 PM            IMG                                                                       
+-----        11/13/2014   4:38 PM  173884883 Cisco Packet Tracer 6.1.1 for Windows (with tutorials) - Student          
+                                             version.exe                                                               
+-a---         11/5/2015   1:26 PM         13 helloworld.ps1                                                            
+-----          2/4/2015   9:06 PM    2547712 KRUNAL ASSIGNMENT3.doc                                                    
+-----        10/28/2014   2:59 PM    1356324 RFID DOOR LOCK.pptx                                                       
+-----        11/24/2014  12:57 PM        461 Windows (C) - Shortcut.lnk                                                
+
+
+PS G:\> cat .\helloworld.ps1
+!helloworld!!
+PS G:\> dir
+
+
+    Directory: G:\
+
+
+Mode                LastWriteTime     Length Name                                                                      
+----                -------------     ------ ----                                                                      
+d----         9/22/2014  12:39 PM            IMG                                                                       
+-----        11/13/2014   4:38 PM  173884883 Cisco Packet Tracer 6.1.1 for Windows (with tutorials) - Student          
+                                             version.exe                                                               
+-a---         11/5/2015   1:26 PM         13 helloworld.ps1                                                            
+-----          2/4/2015   9:06 PM    2547712 KRUNAL ASSIGNMENT3.doc                                                    
+-----        10/28/2014   2:59 PM    1356324 RFID DOOR LOCK.pptx                                                       
+-----        11/24/2014  12:57 PM        461 Windows (C) - Shortcut.lnk                                                
+
+
+PS G:\> .\helloworld.ps1
+.\helloworld.ps1 : File G:\helloworld.ps1 cannot be loaded because running scripts is disabled on this system. For 
+more information, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ .\helloworld.ps1
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS G:\> Set-ExecutionPolicy Bypass
+
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose 
+you to the security risks described in the about_Execution_Policies help topic at 
+http://go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"): Y
+PS G:\> .\helloworld.ps1
+At G:\helloworld.ps1:1 char:2
++ !helloworld!!
++  ~
+Missing expression after unary operator '!'.
+At G:\helloworld.ps1:1 char:2
++ !helloworld!!
++  ~~~~~~~~~~~~
+Unexpected token 'helloworld!!' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParseException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+ 
+PS G:\> cat .\helloworld.ps1
+!helloworld!!
+PS G:\>               & '.\Cisco Packet Tracer 6.1.1 for Windows (with tutorials) - Student version.exe'helloworld.ps1
+PS G:\> .\helloworld.ps1
+helloworld
+PS G:\> $env:Path
+%SystemRoot%\system32\WindowsPowerShell\v1.0\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PCensus;C:\Pro
+gram Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live
+;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Windows Live\Shared;c:\windows\system32
+\gc;c:\windows\system32\gc;c:\windows\system32\gc;C:\PROGRAM FILES\OPENOFFICE.ORG 3\URE\BIN; C:\PROGRAM FILES (X86)\OPE
+NOFFICE.ORG 3\URE\BIN;C:\Windows\CCM;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\
+v1.0\;C:\Program Files (x86)\Accelrys\Accelrys Draw 4.1\\lib;C:\Program Files\Common Files\Autodesk Shared\;C:\Program 
+Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Windows Kits\8.1\Window
+s Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\VXIPNP\WinNT\B
+in;C:\leJOS_NXJ\bin;C:\Windows\CCM;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\
+;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\GCSTUDENT\AppData\Roaming\npm;C:\Program Files (x86)\Java\jdk1.8.0
+_45\bin
+PS G:\> $env:path = "$env:path;g:/"
+PS G:\> $env:path
+%SystemRoot%\system32\WindowsPowerShell\v1.0\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PCensus;C:\Pro
+gram Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live
+;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Windows Live\Shared;c:\windows\system32
+\gc;c:\windows\system32\gc;c:\windows\system32\gc;C:\PROGRAM FILES\OPENOFFICE.ORG 3\URE\BIN; C:\PROGRAM FILES (X86)\OPE
+NOFFICE.ORG 3\URE\BIN;C:\Windows\CCM;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\
+v1.0\;C:\Program Files (x86)\Accelrys\Accelrys Draw 4.1\\lib;C:\Program Files\Common Files\Autodesk Shared\;C:\Program 
+Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Windows Kits\8.1\Window
+s Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\VXIPNP\WinNT\B
+in;C:\leJOS_NXJ\bin;C:\Windows\CCM;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\
+;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\GCSTUDENT\AppData\Roaming\npm;C:\Program Files (x86)\Java\jdk1.8.0
+_45\bin;g:/
+PS G:\> .\helloworld.ps1
+helloworld
+PS G:\> .\helloworld.ps1
+helloworld
+PS G:\> helloworld.ps1
+helloworld
+PS G:\> $PROFILE
+C:\Users\GCSTUDENT\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+PS G:\> Test-Path$PROFILE\
+Test-Path$PROFILE\ : The term 'Test-Path$PROFILE\' is not recognized as the name of a cmdlet, function, script file, 
+or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and 
+try again.
+At line:1 char:1
++ Test-Path$PROFILE\
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Test-Path$PROFILE\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS G:\> Test-Path $PROFILE
+False
+PS G:\> notepad $PROFILE
+PS G:\> New-Item -ItemType file -Force $PROFILE
+
+
+    Directory: C:\Users\GCSTUDENT\Documents\WindowsPowerShell
+
+
+Mode                LastWriteTime     Length Name                                                                      
+----                -------------     ------ ----                                                                      
+-a---         11/5/2015   1:39 PM          0 Microsoft.PowerShell_profile.ps1                                          
+
+
+PS G:\> Test-Path $PROFILE
+True
+PS G:\> notepad $PROFILE
+PS G:\> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20151105134328
+**********************
